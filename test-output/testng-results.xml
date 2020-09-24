@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="34868" started-at="2020-09-24T16:36:11 IST" finished-at="2020-09-24T16:36:46 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="34868" started-at="2020-09-24T16:36:11 IST" finished-at="2020-09-24T16:36:46 IST">
+      <class name="com.mytest.Amazon_a">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.mytest.Amazon_a@78a2da20]" name="setUp" is-config="true" duration-ms="21780" started-at="2020-09-24T16:36:14 IST" finished-at="2020-09-24T16:36:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="AmazonRegistertest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mytest.Amazon_a@78a2da20]" name="AmazonRegistertest" duration-ms="9822" started-at="2020-09-24T16:36:36 IST" data-provider="getTestData" finished-at="2020-09-24T16:36:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[santosh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.561366642E9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[santoshjadhav159@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AmazonRegistertest -->
+      </class> <!-- com.mytest.Amazon_a -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
